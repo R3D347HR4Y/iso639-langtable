@@ -1,6 +1,6 @@
 {
   "name": "iso639-langtable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An easy to use library to get language names from iso639-1 and the other way around in all languages",
   "main": "index.js",
   "scripts": {
