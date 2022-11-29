@@ -1,6 +1,6 @@
 {
   "name": "iso639-langtable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This library allows you to get ISO 639-1 indexes from Language names translated in all Languages as well as the list of languages translated in a given locale",
   "main": "index.js",
   "scripts": {
