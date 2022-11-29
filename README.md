@@ -1,3 +1,3 @@
-# This library allows you to get ISO 639-1 indexes from Language names in all languages as well as the list of languages in a giveng locale (with ISO 639-1 codes)
+# This library allows you to get ISO 639-1 indexes from Language names in all languages as well as the list of languages in a given locale (with ISO 639-1 codes)
 
 Yeah, this README sucks...

@@ -1,13 +1,23 @@
 {
   "name": "iso639-langtable",
-  "version": "1.0.1",
-  "description": "An easy to use library to get language names from iso639-1 and the other way around in all languages",
+  "version": "1.0.2",
+  "description": "This library allows you to get ISO 639-1 indexes from Language names translated in all Languages as well as the list of languages translated in a given locale",
   "main": "index.js",
   "scripts": {
     "test": "node getIsoFromName.js",
     "generate": "node src/generateJsons.js",
     "start": "node index.js"
   },
+  "tags": [
+    "iso639",
+    "locale",
+    "language",
+    "639",
+    "international",
+    "languages",
+    "json",
+    "iso639-1"
+  ],
   "type": "module",
   "author": "Eliott Guillaumin",
   "license": "MIT"
