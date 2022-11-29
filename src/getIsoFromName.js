@@ -1,10 +1,10 @@
-import mix from "../json/mixedLangCI.json";
+const mix = require("../json/mixedLangCI.json");
 
 /**
  * Returns the ISO639-1 of a Language from its name in any language.
  * @param {string} name
  */
-export default getIsoFromName = (name) => {
+const getIsoFromName = (name) => {
   const cleanName = name
     .trim()
     .toLocaleLowerCase()
@@ -12,3 +12,5 @@ export default getIsoFromName = (name) => {
     .replace(/[\u0300-\u036f]/g, "");
   return mix[cleanName];
 };
+
+module.exports = { getIsoFromName };

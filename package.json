@@ -18,7 +18,6 @@
     "json",
     "iso639-1"
   ],
-  "type": "module",
   "author": "Eliott Guillaumin",
   "license": "MIT"
 }

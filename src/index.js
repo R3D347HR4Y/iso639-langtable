@@ -1,4 +1,6 @@
-export { default as generateJsons } from "./generateJsons";
-export { default as getIsoFromName } from "./getIsoFromName";
-export { default as getLangObjectFromIso } from "./getLangObjectFromIso";
-export { default as getNamesFromIso } from "./getNamesFromIso";
+module.exports = {
+  generateJsons: require("./generateJsons"),
+  getIsoFromName: require("./getIsoFromName").getIsoFromName,
+  getLangObjectFromIso: require("./getLangObjectFromIso").acs,
+  getNamesFromIso: require("./getNamesFromIso").getNamesFromIso,
+};

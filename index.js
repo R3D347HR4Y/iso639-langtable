@@ -1,6 +1,10 @@
-import { getIsoFromName, getLangObjectFromIso, getNamesFromIso } from "./src";
+const {
+  getIsoFromName,
+  getLangObjectFromIso,
+  getNamesFromIso,
+} = require("./src");
 
-export default {
+module.exports = {
   getIsoFromName,
   getLangObjectFromIso,
   getNamesFromIso,
