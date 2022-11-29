@@ -1,7 +1,7 @@
 {
-  "name": "iso609-langtable",
+  "name": "iso639-langtable",
   "version": "1.0.0",
-  "description": "An easy to use library to get language names from iso609-1 and the other way around in all languages",
+  "description": "An easy to use library to get language names from iso639-1 and the other way around in all languages",
   "main": "index.js",
   "scripts": {
     "test": "node getIsoFromName.js",

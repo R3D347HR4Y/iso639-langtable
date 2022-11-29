@@ -1,7 +1,7 @@
 import mix from "../json/mixedLangCI.json";
 
 /**
- * Returns the ISO609-1 of a Language from its name in any language.
+ * Returns the ISO639-1 of a Language from its name in any language.
  * @param {string} name
  */
 export default getIsoFromName = (name) => {
